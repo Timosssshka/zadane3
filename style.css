@@ -65,12 +65,12 @@ th {
 td {
    border: 1px solid grey;
 }
-p
+/*p
 {
  display: inline-block;
  float: left;
  margin-right: 175px;
- text-align: center;
+ text-align: center;*/
 } 
 @media screen and (min-width: 850px) {
 #logo 
@@ -78,8 +78,8 @@ p
   width: 100px;
   height: 100px;
   float: left;
-  margin-right: 340px;
-  margin-left: 480px;
+  margin-right: 100px;
+  margin-left: 240px;
 }
 
 #navigation
@@ -101,10 +101,18 @@ p{
   flex-basis: auto;
   justify-content: center;
 }
+ p{
+ display: inline-block;
+ float: left;
+ margin-right: 175px;
+ text-align: center;
+} 
 #tablitsa
 {
   background-color: #c2e69e;
   display: flex;
+  flex-basis: auto;
+  margin-left: 240px;
 }
 #fourmaa
 {

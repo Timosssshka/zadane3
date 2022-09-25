@@ -65,12 +65,12 @@ th {
 td {
    border: 1px solid grey;
 }
-/*p
+p
 {
  display: inline-block;
  float: left;
  margin-right: 175px;
- text-align: center;*/
+ text-align: center;
 } 
 @media screen and (min-width: 850px) {
 #logo 

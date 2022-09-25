@@ -2,6 +2,7 @@ html,body
 {
   background-color: #ffdab9;
 }
+@media screen and (max-width: 480px) {
 #logo 
 {
   width: 100px;
@@ -13,19 +14,18 @@ html,body
 #line
 {
   background-color: #c2e69e;
-  width: 1920px;
-  margin: 0px;
-  height: 100px;
+  display:flex;
+  flex-direction: row;
+  align-content:flex-start;
+  flex-grow:1;
   font-size: 60px;
   color: #008000;
 }
 #pervtab
 {
   background-color: #c2e69e;
-  width: 960px;
-  margin: 25px;
-  margin-left: 480px;
-  height: 75px;
+  display: flex;
+  flex-direction: column;
 }
 p{
  display:inline-block;
@@ -36,10 +36,9 @@ p{
 #secondtb
 {
   background-color: #c2e69e;
-  width: 960px;
-  margin: 25px;
-  margin-left: 480px;
-  height: 615px;
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
 }
 #thirdtb
 {
@@ -71,9 +70,10 @@ td {
 .footer
 {
 background-color: #c2e69e;
-width:1920px;
-height: 50px;
-margin: 0 auto;
-margin-top: 50px;
+display:flex;
+  flex-direction: row;
+  align-content:flex-end;
+  flex-grow:1;
   color: #008000;
+}
 }

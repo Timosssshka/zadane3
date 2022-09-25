@@ -7,11 +7,10 @@ html,body
   background-color: #c2e69e;
   display: flex;
   flex-direction: row;
-  align-content: flex-start;
+  align-content: center;
   flex-grow: 1;
   font-size: 60px;
   color: #008000;
-  justify-content: left;
 }
 table 
 {

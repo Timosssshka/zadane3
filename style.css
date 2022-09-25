@@ -21,7 +21,7 @@ html,body
   font-size: 60px;
   color: #008000;
 }
-#pervtab
+#navigation
 {
   background-color: #c2e69e;
   display: flex;
@@ -33,14 +33,14 @@ p{
  margin-right: 175px;
  text-align: center;
 } 
-#secondtb
+#ssilki
 {
   background-color: #c2e69e;
   display: flex;
   flex-basis: auto;
   justify-content: center;
 }
-#thirdtb
+#tablitsa
 {
   background-color: #c2e69e;
   width: 960px;
@@ -48,7 +48,7 @@ p{
   margin-left: 480px;
   height: 170px;
 }
-#fourtb
+#fourmaa
 {
    background-color: #c2e69e;
   width: 960px;

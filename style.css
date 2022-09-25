@@ -101,12 +101,6 @@ p{
   flex-basis: auto;
   justify-content: center;
 }
- p{
- display: inline-block;
- float: left;
- margin-right: 175px;
- text-align: center;
-} 
 #tablitsa
 {
   background-color: #c2e69e;

@@ -12,6 +12,7 @@ html,body
   font-size: 60px;
   color: #008000;
 }
+@media screen and (min-width: 850px) {
 #logo 
 {
   width: 100px;
@@ -44,6 +45,7 @@ html,body
    background-color: #c2e69e;
   display: flex;
 }
+}
 .footer
 {
 background-color: #c2e69e;
@@ -72,7 +74,7 @@ p
  margin-right: 175px;
  text-align: center;
 } 
-@media screen and (min-width: 850px) {
+@media screen and (max-width: 1000px) {
 #logo 
 {
   width: 100px;

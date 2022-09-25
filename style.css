@@ -12,6 +12,25 @@ html,body
   font-size: 60px;
   color: #008000;
 }
+.footer
+{
+background-color: #c2e69e;
+display: flex;
+align-content: flex-end;
+flex-grow: 1;
+color: #008000;
+}
+table 
+{
+   border: 1px solid grey;
+   width: 100%;
+}
+th {
+   border: 1px solid grey;
+}
+td {
+   border: 1px solid grey;
+}
 @media screen and (min-width: 1224px) {
 #logo 
 {
@@ -53,27 +72,6 @@ html,body
  margin-right: 175px;
  text-align: center;
 } 
-}
-.footer
-{
-background-color: #c2e69e;
-display:flex;
-flex-direction: row;
-align-content: flex-end;
-flex-grow: 1;
-color: #008000;
-}
-table 
-{
-   border: 1px solid grey;
-   width: 100%;
-   height: 170px;
-}
-th {
-   border: 1px solid grey;
-}
-td {
-   border: 1px solid grey;
 }
 @media screen and (max-width: 480px) and (min-width 320px) {
 #logo 

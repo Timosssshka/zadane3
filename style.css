@@ -16,6 +16,7 @@ html,body
 {
 background-color: #c2e69e;
 display: flex;
+  flex-direction: row;
 align-content: flex-end;
 flex-grow: 1;
 color: #008000;

@@ -1,1 +1,170 @@
+<!DOCTYPE html>
+ <html lang="ru">
+   <head>
+    <title> Главная </title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+     <header>
+      <div id="line">
+       <a>Главная</a>
+        <div id="logo">
+       <img src="https://i.ibb.co/Wxq7Vyn/image.png" Width="100" Height="100" alt="name"/>
+       </div>
+      </div>
+    </header>
+    <nav>
+     <div id="pervtab">
+      <ul style="list-style:none;">
+       <p><a href="#giperl" title="Нумированный список гиперссылок">Гиперссылки</a></p>
+       <p><a href ="#table" title="Таблица с контентом">Таблица</a></p>
+       <p><a href ="#form" title="Перейти к заполнению формы">Форма</a></p>
+      </ul>
+     </div>
+    </nav>
+    <nav id="giperl">
+	    <div style="max-width:960px; margin-left: 480px; margin-top:20px; padding:10px;;">
+		<h4>Гиперссылки</h4>
+	</div>
+    <div id="secondtb">
+      <ol> 
+      <li><a href="http://example.com/">Задание 1</a></li> 
+      <li><a href="https://example.com/">Задание 2</a></li> 
+      <li><a href="ftp://example.com/Temp/file.txt">Задание 3</a></li>
+      <li><a href="ftp://user:password@example.com/Temp/file.txt">Задание 4</a></li>
+      <li><a href="https://example.com#Информация">Задание 5</a></li>
+      <li><a href="#Информация_сайта">Задание 6</a></li>
+      <li><a href="http://example.com?name=Anton&surname=Usov">Задание 7</a></li>
+      <li>
+        <ul>
+          <li><a href="http://example.com/menu/main/" title="Освновная страница сайта">1)Главная страница</a></li>
+          <li><a href="http://example.com/menu/helper/" title="Контактные данные">2)Помощь</a></li>
+        </ul>
+      </li>
+      <li><a>https://example.com/</a></li>
+      <li><a href=" ">Задание 10</a></li>
+      <li><a href="http://example.com/" rel="nofollow">Задание 11</a></li>
+      <li><!--noindex--><a href="http://example.com/menu">Задание 12</a><!--/noindex--></li>
+      <li>Задание <a href="https://example.com">13</a></li>
+      <li><a href="http://example.com"><img src="https://i.ibb.co/qFLNsNr/image.jpg" Height= "50" Width="50" alt="flower"></a></li>
+      <li>
+        <map name="map1">
+          <area shape="circle" coords= "85,85,65"  href="http://example.com" alt="circle">
+          <area shape="rect" coords = "164,10,290,140" href="http://example.com/" alt="square">
+        </map>
+        <img usemap="#map1" src="https://i.ibb.co/d5nHNQ0/Figures.jpg" Width="301" Height="174" alt="shapes">
+      </li>
+      <li><a href="index.html">Задание 16</a></li><li><a href="about">Задание 17</a></li>
+      <li><a href="../index.html">Задание 18</a></li>
+      <li><a href="../../index.html">Задание 19</a></li>
+      <li><a href="/">Задание 20</a></li>
+      <li><a href="/about">Задание 21</a></li>
+    </ol>
+    </nav>
+    </div>
+	 <nav id="table">
+	<div style="max-width:960px; margin-left: 480px; margin-top:20px; padding:10px;">
+		<h4>Таблица</h4>
+	</div>
+	   <div id="thirdtb">
+  <table>
+	  <tbody>
+		  <tr>
+			  <td BGCOLOR="#99CC33">Дата</td>
+			  <td BGCOLOR="#99CC33">Время</td>
+			  <td BGCOLOR="#99CC33">Планы</td>
+		  </tr>
+		  <tr>
+			  <th BGCOLOR="#ffff00">1</td>
+			  <th BGCOLOR="#ffff00">2</td>
+			  <th BGCOLOR="#ffff00">3</td>
+		  </tr>
+		  <tr>
+			  <th BGCOLOR="#99CC33">4</td>
+			  <th BGCOLOR="#99CC33">5</td>
+			  <th BGCOLOR="#99CC33">6</td>
+		  </tr>
+		  <tr>
+			  <th BGCOLOR="#ffff00">7</td>
+			  <th BGCOLOR="#ffff00">8</td>
+			  <th BGCOLOR="#ffff00">9</td>
+		  </tr>
+		  <tr>
+			  <td colspan="3" BGCOLOR="#99CC33">Объединённая ячейчка</td>
+		  </tr>
+	  </tbody>
+		   </table>
+	   </nav>
+	   </div>
+    	   <nav id="form">
+	<div style="max-width:960px; margin-left: 480px; margin-top:20px; padding:10px;;">
+  		<h4>Форма HTML</h4>
+	</div>
+	<div id="fourtb">
+    <form action="URL_отправки_данных" method="POST">
+ <label>
+ Имя:
+  <br />
+      <input name="field-name-1" value="Введите имя" /> 
+  </label><br />
+ <label>
+ Почта:
+  <br />
+      <input name="field-email" value="Ваша электронная почта" type="email" />
+  </label>
+ <br />
+  <label>
+ Дата рождения:
+ <br />
+      <input name="field-date" value="2019-08-13" type="date" />
+  </label>
+ <br />
+ Пол:
+ <br />
+  <label>
+     <input type="radio" checked="checked" name="radio-group-0" value="М" />М
+  </label>
+  <label>
+     <input type="radio" name="radio-group-0" value="Ж" />Ж
+ </label><br />
+Кол-во конечностей:
+ <br />
+<label>
+ <input type="radio" checked="checked" name="radio-group-1" value="Значение1" />1</label>
+ <label>
+ <input type="radio" name="radio-group-1" value="Значение2" />2</label> 
+ <label>
+ <input type="radio" name="radio-group-1" value="Значение3" />3</label> 
+ <label>
+ <input type="radio" name="radio-group-1" value="Значение4" />4</label>
+ <label>
+ <input type="radio" name="radio-group-1" value="Значение5" />5</label>
+ <br /> 
+   <label>
+Сверхспособности:
+ <br />
+  <select name="field-name-3[]" multiple="multiple">
+  <option value="Значение1">Бессмертие</option>
+  <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+  <option value="Значение3" selected="selected">Левитация</option>
+  </select></label>
+ <br />
+  <label>
+Биография:
+  <br />
+  <textarea name="field-name-2">Напишите свою биографию</textarea></label>
+  <br />
+ <br />
+  <label>C контрактом ознакомлен(а)<input type="checkbox" name="check-1" /></label>
+ <br />
+ <p>Отправить форму:
+  <input type="submit" value="Отправить" />
+  </nav>
+  </div>
+   </p>
+		<footer class="footer" id="foot">
+<h4>(с) Охотников Тимофей 2022</h4>
+</footer>
+  </body>
+</html>
 

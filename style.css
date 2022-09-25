@@ -17,7 +17,6 @@ html,body
 background-color: #c2e69e;
 display: flex;
 align-content: flex-end;
-flex-grow: 1;
 font-size: 15px;
 color: #008000;
 margin-top: 20px;

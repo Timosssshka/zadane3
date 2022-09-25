@@ -89,12 +89,6 @@ td {
   display: flex;
   flex-direction: left;
 }
-p{
- display: inline-block;
- float: left;
- margin-right: 175px;
- text-align: center;
-} 
 #ssilki
 {
   background-color: #c2e69e;

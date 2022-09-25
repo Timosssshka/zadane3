@@ -12,6 +12,47 @@ html,body
   font-size: 60px;
   color: #008000;
 }
+#logo 
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 340px;
+  margin-left: 480px;
+}
+#navigation
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-direction: column;
+}
+  #ssilki
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+}
+#tablitsa
+{
+  background-color: #c2e69e;
+  display: flex;
+}
+#fourmaa
+{
+   background-color: #c2e69e;
+  display: flex;
+}
+.footer
+{
+background-color: #c2e69e;
+display:flex;
+flex-direction: row;
+align-content: flex-end;
+flex-grow: 1;
+color: #008000;
+}
+}
 table 
 {
    border: 1px solid grey;
@@ -40,12 +81,12 @@ td {
   display: flex;
   flex-direction: column;
 }
-p{
+/*p{
  display: inline-block;
  float: left;
  margin-right: 175px;
  text-align: center;
-} 
+} */
 #ssilki
 {
   background-color: #c2e69e;
@@ -66,7 +107,7 @@ p{
 .footer
 {
 background-color: #c2e69e;
-display:flex;
+display: flex;
 flex-direction: row;
 align-content: flex-end;
 flex-grow: 1;

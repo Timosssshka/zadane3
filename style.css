@@ -46,6 +46,8 @@ td {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  margin-right: 240px;
+  margin-left: 240px;
 }
   #ssilki
 {
@@ -53,16 +55,22 @@ td {
   display: flex;
   flex-basis: auto;
   justify-content: left;
+  margin-right: 240px;
+  margin-left: 240px;
 }
 #tablitsa
 {
   background-color: #c2e69e;
   display: flex;
+    margin-right: 240px;
+  margin-left: 240px;
 }
 #fourmaa
 {
    background-color: #c2e69e;
   display: flex;
+    margin-right: 240px;
+  margin-left: 240px;
 }
   p
 {

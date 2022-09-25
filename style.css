@@ -6,7 +6,8 @@ html,body
 {
   background-color: #c2e69e;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   align-content: center;
   flex-grow: 1;
   font-size: 60px;

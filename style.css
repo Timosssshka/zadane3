@@ -11,6 +11,11 @@ html,body
   flex-grow: 1;
   font-size: 60px;
   color: #008000;
+  justify-content: left;
+  float: left;
+  margin-left: 100px;
+  margin-right: 250px;
+  
 }
 .footer
 {
@@ -37,8 +42,6 @@ td {
 {
   width: 100px;
   height: 100px;
-  float: left;
-  margin-right: 100px;
 }
 #navigation
 {

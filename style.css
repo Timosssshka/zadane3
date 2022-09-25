@@ -2,10 +2,13 @@ html,body
 {
   background-color: #ffdab9;
 }
-#box 
+#logo 
 {
-  display: flex;
-  flex-direction: row-reverse;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 340px;
+  margin-left: 480px;
 }
 #line
 {

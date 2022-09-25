@@ -45,6 +45,14 @@ html,body
    background-color: #c2e69e;
   display: flex;
 }
+  p
+{
+ list-stile-type: none;
+ display: inline-block;
+ float: left;
+ margin-right: 175px;
+ text-align: center;
+} 
 }
 .footer
 {
@@ -67,13 +75,6 @@ th {
 td {
    border: 1px solid grey;
 }
-p
-{
- display: inline-block;
- float: left;
- margin-right: 175px;
- text-align: center;
-} 
 @media screen and (max-width: 480px) and (min-width 320px) {
 #logo 
 {
@@ -115,4 +116,8 @@ p{
    background-color: #c2e69e;
   display: flex;
 }
+  p
+{
+  list-stile-type: none;
+} 
 }

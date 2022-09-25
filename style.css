@@ -114,6 +114,7 @@ margin-top: 20px;
   display: flex;
     margin-right: 240px;
   margin-left: 240px;
+  order: 1;
 }
   p
 {

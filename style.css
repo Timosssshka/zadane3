@@ -25,6 +25,7 @@ html,body
   background-color: #c2e69e;
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
   #ssilki
 {

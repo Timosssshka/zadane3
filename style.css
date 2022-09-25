@@ -53,7 +53,6 @@ align-content: flex-end;
 flex-grow: 1;
 color: #008000;
 }
-}
 table 
 {
    border: 1px solid grey;
@@ -66,7 +65,14 @@ th {
 td {
    border: 1px solid grey;
 }
-@media screen and (min-width: 768px) {
+p
+{
+ display: inline-block;
+ float: left;
+ margin-right: 175px;
+ text-align: center;
+} 
+@media screen and (min-width: 850px) {
 #logo 
 {
   width: 100px;
@@ -82,12 +88,12 @@ td {
   display: flex;
   flex-direction: column;
 }
-/*p{
+p{
  display: inline-block;
  float: left;
  margin-right: 175px;
  text-align: center;
-} */
+} 
 #ssilki
 {
   background-color: #c2e69e;

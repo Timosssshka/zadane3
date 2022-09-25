@@ -12,6 +12,18 @@ html,body
   font-size: 60px;
   color: #008000;
 }
+table 
+{
+   border: 1px solid grey;
+   width: 100%;
+   height: 170px;
+}
+th {
+   border: 1px solid grey;
+}
+td {
+   border: 1px solid grey;
+}
 @media screen and (max-width: 480px) {
 #logo 
 {
@@ -51,23 +63,13 @@ p{
    background-color: #c2e69e;
   display: flex;
 }
-table {
-   border: 1px solid grey;
-  display: flex;
-}
-th {
-   border: 1px solid grey;
-}
-td {
-   border: 1px solid grey;
-}
 .footer
 {
 background-color: #c2e69e;
 display:flex;
-  flex-direction: row;
-  align-content:flex-end;
-  flex-grow:1;
-  color: #008000;
+flex-direction: row;
+align-content: flex-end;
+flex-grow: 1;
+color: #008000;
 }
 }

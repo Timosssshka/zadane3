@@ -1,53 +1,3 @@
-@media screen and (min-width: 1224px) {
-#logo 
-{
-  width: 100px;
-  height: 100px;
-  float: left;
-  margin-right: 200px;
-  margin-left: 240px;
-}
-#navigation
-{
-  background-color: #c2e69e;
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-right: 240px;
-  margin-left: 240px;
-}
-  #ssilki
-{
-  background-color: #c2e69e;
-  display: flex;
-  flex-basis: auto;
-  justify-content: left;
-  margin-right: 240px;
-  margin-left: 240px;
-}
-#tablitsa
-{
-  background-color: #c2e69e;
-  display: flex;
-  margin-right: 240px;
-  margin-left: 240px;
-}
-#fourmaa
-{
-   background-color: #c2e69e;
-  display: flex;
-    margin-right: 240px;
-  margin-left: 240px;
-}
-  p
-{
- list-stile-type: none;
- display: inline-block;
- float: left;
- margin-right: 175px;
- text-align: center;
-} 
-}
 html,body
 {
   background-color: #ffdab9;
@@ -119,4 +69,54 @@ height: 25px;
 font-size: 15px;
 color: #008000;
 margin-top: 20px;
+}
+@media screen and (min-width: 1224px) {
+#logo 
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 200px;
+  margin-left: 240px;
+}
+#navigation
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 240px;
+  margin-left: 240px;
+}
+  #ssilki
+{
+  background-color: #c2e69e;
+  display: flex;
+  flex-basis: auto;
+  justify-content: left;
+  margin-right: 240px;
+  margin-left: 240px;
+}
+#tablitsa
+{
+  background-color: #c2e69e;
+  display: flex;
+  margin-right: 240px;
+  margin-left: 240px;
+}
+#fourmaa
+{
+   background-color: #c2e69e;
+  display: flex;
+    margin-right: 240px;
+  margin-left: 240px;
+}
+  p
+{
+ list-stile-type: none;
+ display: inline-block;
+ float: left;
+ margin-right: 175px;
+ text-align: center;
+} 
 }

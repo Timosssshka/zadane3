@@ -1,1 +1,79 @@
-
+html,body
+{
+  background-color: #ffdab9;
+}
+#logo 
+{
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right: 340px;
+  margin-left: 480px;
+}
+#line
+{
+  background-color: #c2e69e;
+  width: 1920px;
+  margin: 0px;
+  height: 100px;
+  font-size: 60px;
+  color: #008000;
+}
+#pervtab
+{
+  background-color: #c2e69e;
+  width: 960px;
+  margin: 25px;
+  margin-left: 480px;
+  height: 75px;
+}
+p{
+ display:inline-block;
+ float: left;
+ margin-right: 175px;
+ text-align: center;
+} 
+#secondtb
+{
+  background-color: #c2e69e;
+  width: 960px;
+  margin: 25px;
+  margin-left: 480px;
+  height: 615px;
+}
+#thirdtb
+{
+  background-color: #c2e69e;
+  width: 960px;
+  margin: 25px;
+  margin-left: 480px;
+  height: 170px;
+}
+#fourtb
+{
+   background-color: #c2e69e;
+  width: 960px;
+  margin: 50px;
+  margin-left: 480px;
+  height: 455px;
+}
+table {
+   border: 1px solid grey;
+  width: 100%;
+  height: 170px;
+}
+th {
+   border: 1px solid grey;
+}
+td {
+   border: 1px solid grey;
+}
+.footer
+{
+background-color: #c2e69e;
+width:1920px;
+height: 50px;
+margin: 0 auto;
+margin-top: 50px;
+  color: #008000;
+}

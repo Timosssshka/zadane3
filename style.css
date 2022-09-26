@@ -37,10 +37,10 @@ html,body
 display: flex;
 Flex-direction: column;
 }
-table {
+.tablitsa {
 order: 2;
 }
-form {
+.fourmaa {
 order: 1;
 }
 .tablitsa

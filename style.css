@@ -64,7 +64,7 @@ form
    background-color: #c2e69e;
   display: flex;
 }
-table 
+/*table 
 {
    border: 1px solid grey;
    width: 100%;
@@ -74,6 +74,21 @@ th {
 }
 td {
    border: 1px solid grey;
+}
+td, th {
+padding: 3px;
+border: 1px solid black;
+}*/
+table {
+border-collapse: collapse;
+width: 450px;
+}
+tr: nth-child(even) {
+background-color: #99CC33;
+color: red;
+}
+tr: nth-child(odd) {
+background-color: #ffff00;
 }
 .footer
 {

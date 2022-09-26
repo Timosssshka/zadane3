@@ -68,10 +68,6 @@ font-size: 15px;
 color: #008000;
 margin-top: 20px;
 }
-.flex-item
-{
-  flex: 1;
-}
 @media screen and (min-width: 1224px) {
 #logo 
 {
@@ -106,7 +102,6 @@ margin-top: 20px;
   flex-basis: auto;
   margin-right: 240px;
   margin-left: 240px;
-  order: 2;
 }
 #fourmaa
 {

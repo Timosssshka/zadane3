@@ -38,6 +38,7 @@ html,body
   display: flex;
   flex-basis: auto;
   flex-grow: 1;
+  flex-direction: column
 }
 .tablitsa
 {
@@ -45,11 +46,13 @@ html,body
   display: flex;
   flex-basis: auto;
   flex-grow: 1;
+  flex-direction: column
 }
 .fourmaa
 {
    background-color: #c2e69e;
   display: flex;
+  flex-direction: column
 }
 table 
 {
@@ -120,6 +123,7 @@ tr.even
   justify-content: left;
   margin-right: 240px;
   margin-left: 240px;
+  flex-direction: column
 }
 .tablitsa
 {

@@ -56,6 +56,11 @@ html,body
   flex-direction: column;
    margin-top: 20px;
 }
+.swap
+{
+  display: flex;
+  flex-direction: column;
+}
 table 
 {
   border: 1px solid #228b22;

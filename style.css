@@ -33,14 +33,14 @@ html,body
   flex-basis: auto;
   flex-grow: 1;
 }
-#1 {
+#swap {
 display: flex;
 Flex-direction: column;
 }
-.tablitsa {
+.table {
 order: 2;
 }
-.fourmaa {
+.form {
 order: 1;
 }
 .tablitsa

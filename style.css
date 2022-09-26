@@ -40,18 +40,18 @@ html,body
   flex-grow: 1;
 }
 #swap 
-{
-display: flex;
-Flex-direction: column;
-}
+  {
+    display: flex;
+    flex-direction: column;
+  }
 table 
-{
-order: 2;
-}
+  {
+    order: 2;
+  }
 form 
-{
-order: 1;
-}
+  {
+    order: 1;
+  }
 .tablitsa
 {
   background-color: #c2e69e;

@@ -76,10 +76,10 @@ td {
 .footer
 {
   background-color: #c2e69e;
-  display: flex;
+  height 30px;
+  font-size: 15px;
   color: #008000;
   margin-top: 20px;
-  flex-grow: 1;
 }
 @media screen and (min-width: 1224px) {
 #logo 

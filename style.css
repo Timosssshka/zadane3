@@ -20,12 +20,12 @@ html,body
 }
 .navigation
 {
-  background-color: #c2e69e;
   display: flex;
-  flex-direction: column;
-  list-style-type: none;
+  background-color: #c2e69e;
   margin-top: 20px;
+  flex-direction: column;
   flex-grow: 1;
+  list-style-type: none;
   justify-content: center;
 }
 .navigation li
@@ -77,8 +77,8 @@ td {
 }
 .footer
 {
+  display: flex;
   background-color: #c2e69e;
-  height: 30px;
   font-size: 15px;
   color: #008000;
   margin-top: 20px;
@@ -93,21 +93,21 @@ td {
   margin-left: 240px;
 }
 .navigation
-{
-  background-color: #c2e69e;
+{ 
   display: flex;
+  background-color: #c2e69e;
   flex-direction: row;
   margin-left: 50px;
-  margin-right: 240px;
   margin-left: 240px;
+  margin-right: 240px;
 }
 .navigation a
   {
-    list-stile-type: none;
-    display: inline-block;
-     float: left;
-    margin-right: 150px;
-      text-align: center;
+     list-style-type: none;
+  display: inline-block;
+  float: left;
+  margin-right: 80px;
+  text-align: center;
   } 
   #ssilki
 {
@@ -125,13 +125,18 @@ td {
   flex-basis: auto;
   margin-right: 240px;
   margin-left: 240px;
+  flex-direction: column;
+  pudding: 10px;
 }
 .fourmaa
 {
+   margin-top: 20px;
    background-color: #c2e69e;
   display: flex;
   flex-basis: auto;
     margin-right: 240px;
   margin-left: 240px;
+  pudding: 10px;
+  flex-direction: column;
 }
 }

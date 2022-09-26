@@ -55,6 +55,7 @@ html,body
   display: flex;
   flex-direction: column;
    margin-top: 20px;
+  order: -1;
 }
 .swap
 {
@@ -142,6 +143,12 @@ tr.even
   flex-direction: column;
   pudding: 10px;
   margin-top: 20px;
+  order: -1;
+}
+.swap
+{
+  display: flex;
+  flex-direction: column;
 }
 .fourmaa
 {
@@ -154,4 +161,5 @@ tr.even
   pudding: 10px;
   flex-direction: column;
 }
+  
 }

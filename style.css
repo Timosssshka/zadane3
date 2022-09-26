@@ -18,13 +18,19 @@ html,body
   justify-content: flex-start;
   margin-right: 250px;
 }
-#navigation
+.navigation
 {
   background-color: #c2e69e;
   display: flex;
   flex-direction: column;
+  list-style-type: none;
   margin-top: 20px;
   flex-grow: 1;
+  justify-content: center;
+}
+.navigation li
+{
+   list-style-type: none;
 }
 #ssilki
 {
@@ -90,15 +96,23 @@ td {
   margin-right: 200px;
   margin-left: 240px;
 }
-#navigation
+.navigation
 {
   background-color: #c2e69e;
   display: flex;
-  flex-direction: column;
-  margin-top: 10px;
+  flex-direction: row;
+  margin-left: 50px;
   margin-right: 240px;
   margin-left: 240px;
 }
+.navigation a
+  {
+    list-stile-type: none;
+    display: inline-block;
+     float: left;
+    margin-right: 150px;
+      text-align: center;
+  } 
   #ssilki
 {
   background-color: #c2e69e;
@@ -124,12 +138,4 @@ td {
     margin-right: 240px;
   margin-left: 240px;
 }
-  p
-{
- list-stile-type: none;
- display: inline-block;
- float: left;
- margin-right: 175px;
- text-align: center;
-} 
 }

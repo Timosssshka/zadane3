@@ -33,19 +33,27 @@ html,body
   flex-basis: auto;
   flex-grow: 1;
 }
+#1 {
+display: flex;
+Flex-direction: column;
+}
+table {
+order:2;
+}
+form {
+order:1;
+}
 .tablitsa
 {
   background-color: #c2e69e;
   display: flex;
   flex-basis: auto;
   flex-grow: 1;
-  order: 2;
 }
 .fourmaa
 {
    background-color: #c2e69e;
   display: flex;
-  order: 1;
 }
   p
 {
